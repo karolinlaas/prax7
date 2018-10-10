@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    text-align: center;
+    margin-top: 25vh;
+    background-color: antiquewhite;
+}
+
+body h1 {
+    font-size: 35px;
+}
+
+#output {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    font-weight: bolder;
+}
+
+#gramOutput, #ozOutput, #poundOutput {
+    text-align: right;
+    padding-left: 25px;
+    font-weight: normal;
+}
+
+#output td {
+    padding-top: 7px;
+}
+
+input  {
+    width: 190px;
+    border-width: 2px;
+    border-style: solid;
+    padding: 4px;
+    margin-bottom: 15px;
+}
+
+button {
+    margin-bottom: 25px;
+    width: 100px;
+    padding: 4px;
+}
+
+.bg {
+    color: white;
+    background-color: black;
+}

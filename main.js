@@ -4,6 +4,8 @@ let gramOutput = document.getElementById('gramOutput');
 let poundOutput = document.getElementById('poundOutput');
 let ozOutput = document.getElementById('ozOutput');
 let output = document.getElementById('output');
+let body = document.getElementById('body');
+let toggleButton = document.getElementById('toggleButton');
 
 output.style.visibility = 'hidden';
 
@@ -18,3 +20,7 @@ kgInput.addEventListener('input', event => {                        // addEvents
     ozOutput.innerHTML = `${(kg * 35.2739619).toFixed(2)} oz`;
 });
 
+
+modeButton.addEventListener('click', event => {  
+    body.classList.toggle('bg');
+});
