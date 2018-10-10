@@ -14,7 +14,7 @@ kgInput.addEventListener('input', event => {                        // addEvents
     output.style.visibility = (kg === '0') ? 'hidden' : 'visible';  // == tähedab, et on truthy, ilma ülakomadeta. ===
     
     gramOutput.innerHTML = `${kg * 1000} g`;                        // muudame teksti, mis ilmub html-is tagide vahele
-    poundOutput.innerHTML = `${kg * 2.20462262} lb`;
-    ozOutput.innerHTML = `${kg * 35.2739619} oz`;
+    poundOutput.innerHTML = `${(kg * 2.20462262).toFixed(2)} lb`;
+    ozOutput.innerHTML = `${(kg * 35.2739619).toFixed(2)} oz`;
 });
 
